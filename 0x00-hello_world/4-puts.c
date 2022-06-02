@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
-*This program prints into the standard output using puts
-* main - This is the function entry point
+ * main - This is the function entry point
+ * 
+ * This program prints into the standard output using puts
 */
 int main(void)
 {
