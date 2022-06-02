@@ -2,8 +2,8 @@
 
 /**
  * main - This is the function entry point
- * 
- * This program prints into the standard output using puts
+ *
+ * return: 0 if code is a success
 */
 int main(void)
 {
