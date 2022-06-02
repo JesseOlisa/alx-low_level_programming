@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	char printString[] = "with proper grammar, but the outcome is a piece of art,";
+	char pString[] = "with proper grammar, but the outcome is a piece of art,";
 
 	printf("%s\n", printString:);
 
