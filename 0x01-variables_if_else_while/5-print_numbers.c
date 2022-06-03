@@ -13,9 +13,8 @@ int main(void)
 	int num;
 	num = 0;
 	do {
-		num++;
-		num = num - 1;
 		printf("%d", num);
+		num++;
 	} while (num <= 10);
 
 	printf("\n");
