@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - This is the function entry point
  *
@@ -13,7 +15,7 @@ int main(void)
 	for (letters = 'a'; letters <= 'z'; letters++)
 	{
 		if(letters == 'e' || letters == 'q')
-		break;
+		continue;
 		putchar(letters);
 	}
 
