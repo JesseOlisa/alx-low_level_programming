@@ -15,8 +15,11 @@ int main(void)
 	num = 0;
 	do {
 		putchar('0' + num); /* This converts num to their ASCII value */
-        putchar(',');
-        putchar(' ');
+		if (num != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		num++;
 	} while (num < 10);
 
