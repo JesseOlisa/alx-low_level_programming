@@ -23,7 +23,7 @@ int main(void)
 			{
 				for (l = k + 1; l <= 57; l++)
 				{
-					if(i == 57 j== 56)
+					if(i == 57 && j== 56)
 						continue;
 					putchar(i);
 					putchar(j);
