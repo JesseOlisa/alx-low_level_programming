@@ -19,12 +19,10 @@ int main(void)
 	{
 		for (j = 48 ; j < 57; j++)
 		{
-			for (k = 48; k <= 57; k++)
+			for (k = i; k <= 57; k++)
 			{
 				for (l = k + 1; l <= 57; l++)
 				{
-					if(i == 57 && j== 56)
-						continue;
 					putchar(i);
 					putchar(j);
 					putchar(' ');
