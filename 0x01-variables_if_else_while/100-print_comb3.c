@@ -17,10 +17,10 @@ int main(void)
 	{
 		for (j = i + 1; j <= 57; i++)
 		{
-			putchar[i];
-			putchar[j];
-			putchar[','];
-			putchar[' '];
+			putchar(i);
+			putchar(j);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	return (0)
