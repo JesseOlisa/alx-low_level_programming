@@ -19,7 +19,7 @@ int main(void)
 	{
 		for (j = 48 ; j < 57; j++)
 		{
-			for (k = 48; k <= 57; k++)
+			for (k = j + 1; k <= 57; k++)
 			{
 				for (l = k + 1; l <= 57; l++)
 				{
