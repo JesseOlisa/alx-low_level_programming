@@ -17,23 +17,26 @@ int main(void)
 
 	for (i = 48; i <= 57; i++)
 	{
-		for (j = 48 ; j < 57; j++)
+		for (j = i + 1 ; j < 57; j++)
 		{
 			for (k = 48; k <= 57; k++)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(' ');
-					putchar(k);
-					putchar(l);
-					if (i == 57 && j == 56 && k == 57 && l == 57)
+					if ((K + j) > (i + j))
 					{
-					break;
+						putchar(i);
+						putchar(j);
+						putchar(' ');
+						putchar(k);
+						putchar(l);
+						if (i == 57 && j == 56 && k == 57 && l == 57)
+						{
+						break;
+						}
+						putchar(',');
+						putchar(' ');
 					}
-					putchar(',');
-					putchar(' ');
 				}
 			}
 		}
