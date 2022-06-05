@@ -23,7 +23,7 @@ int main(void)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					if ((k + l) > (i + j))
+					if (((k + l) > (i + j)) && k >= i)
 					{
 						putchar(i);
 						putchar(j);
