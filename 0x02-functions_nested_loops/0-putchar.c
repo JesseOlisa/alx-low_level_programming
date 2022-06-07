@@ -5,7 +5,7 @@
  *
  * this program creates a function that prints _putchar
  *
- * return 0: if the code is a success
+ *return: 0 if the code is a success
 */
 
 int main(void)
