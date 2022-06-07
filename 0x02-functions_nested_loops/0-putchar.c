@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main - this is th function entry point
+ * main -  Prints _putchar
  *
- * this program creates a function that prints _putchar
- *
- *return: 0 if the code is a success
-*/
+ * Description: Program to print _putchar
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
