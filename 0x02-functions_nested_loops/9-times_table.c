@@ -2,7 +2,6 @@
 
 /**
  * times_table - prints 9 times table
- * 
  *
  * Return: Always 1 if program is successful
  */
