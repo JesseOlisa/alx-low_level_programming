@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main -  Prints _putchar
+ * main - This is the entry point of the program Prints _putchar
  *
- * Description: Program to print _putchar
- * Return: Always 0 (Success)
+ * This prgram uses the the _putchar too print into the standard output
+ * Return: Always 0 if program is successful
  */
 
 int main(void)
