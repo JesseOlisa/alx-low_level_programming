@@ -9,15 +9,14 @@
  */
 int _abs(int n)
 {
-	int n;
-	int abs;
+	int absValue;
 
-	if(n > 0)
+	if(n >= 0)
 	{
-		abs = n;
+		absValue = n;
 	}
 	else
 	{
-		abs = n * (-1);
+		absValue = n * (-1);
 	}
 }
