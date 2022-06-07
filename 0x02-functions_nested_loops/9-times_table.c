@@ -33,11 +33,6 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			// if (j != 9 && tb > 9)
-			// {
-			// 	_putchar(',');
-			// 	_putchar(' ');
-			// }
 		}
 		_putchar('\n');
 		i++;
