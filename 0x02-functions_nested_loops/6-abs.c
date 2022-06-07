@@ -14,9 +14,11 @@ int _abs(int n)
 	if(n >= 0)
 	{
 		absValue = n;
+		return absValue;
 	}
 	else
 	{
 		absValue = n * (-1);
+		return absValue;
 	}
 }
