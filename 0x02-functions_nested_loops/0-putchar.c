@@ -2,9 +2,13 @@
 
 /**
  * main - this is th function entry point
- * 
+ *
  * this program creates a function that prints _putchar
- * 
+ *
+ * _putchar -returns the value of c
+ *
+ * c is the return value of putchar
+ *
  * return 0: if the code is a success
 */
 
