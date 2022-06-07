@@ -22,10 +22,10 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 					_putchar((tb / 100) + '0');
-					_putchar((tb / 10) % 10 + '0');
+					_putchar((tb / 10) % 10) + '0');
 					_putchar((tb % 10) + '0');
 				}
-				if (tb > 9)
+				else if (tb > 9)
 				{
 					_putchar(' ');
 					_putchar(' ');
@@ -37,6 +37,10 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
+					_putchar(tb + '0');
+				}
+				else
+				{
 					_putchar(tb + '0');
 				}
 				if (j != n)
