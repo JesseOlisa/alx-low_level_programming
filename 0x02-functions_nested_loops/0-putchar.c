@@ -7,17 +7,19 @@
  * return 0: if the code is a success
 */
 
-int main(void)
-{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_purchar('a');
-	_putchar('r');
-	_putchar('\n');
+// int main(void)
+// {
+// 	_putchar('_');
+// 	_putchar('p');
+// 	_putchar('u');
+// 	_putchar('t');
+// 	_putchar('c');
+// 	_putchar('h');
+// 	_purchar('a');
+// 	_putchar('r');
+// 	_putchar('\n');
 
-	return (0);
-}
+// 	return (0);
+// }
+
+int _putchar(char c);
