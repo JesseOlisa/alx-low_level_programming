@@ -3,7 +3,7 @@
 /**
  * _islower - is a function that prints 1 if the alphabet is lowercase
  *
- * c - parameter for letter
+ * @c: parameter for letters
  *
  * Return: Always 1 if program is successful
  */
