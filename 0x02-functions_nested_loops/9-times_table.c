@@ -24,10 +24,13 @@ void times_table(void)
 				_putchar((tb / 10) + '0'); /*This removes last*/
 				_putchar((tb % 10) + '0');
 			}
-			else
+			else if (j != 0)
 			{
 				_putchar(' ');
 				_putchar(' ');
+				_putchar(tb + '0');
+			}
+			else {
 				_putchar(tb + '0');
 			}
 			if (j != 9)
