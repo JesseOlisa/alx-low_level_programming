@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - returns 1 if the alphabet is lowercase or uppercase
+ * _abs - returns absoulte value of a number
  *
- * @c: parameter for letters
+ * @n: parameter for number
  *
  * Return: Always 1 if program is successful
  */
@@ -11,14 +11,14 @@ int _abs(int n)
 {
 	int absValue;
 
-	if(n >= 0)
+	if (n >= 0)
 	{
 		absValue = n;
-		return absValue;
+		return (absValue);
 	}
 	else
 	{
 		absValue = n * (-1);
-		return absValue;
+		return (absValue);
 	}
 }
