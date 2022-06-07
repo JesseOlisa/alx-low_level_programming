@@ -25,19 +25,19 @@ void times_table(void)
 			}
 			else
 			{
+				_putchar(' ');
 				_putchar(tb + '0');
 			}
-			if (j != 9 && tb <= 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-			}
-			if (j != 9 && tb > 9)
+			if (j != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
+			// if (j != 9 && tb > 9)
+			// {
+			// 	_putchar(',');
+			// 	_putchar(' ');
+			// }
 		}
 		_putchar('\n');
 		i++;
