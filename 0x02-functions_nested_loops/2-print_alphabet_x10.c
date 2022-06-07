@@ -8,9 +8,9 @@
 
 void print_alphabet_x10(void)
 {
-	int i = 1;
+	int i = 0;
 
-	while(i <= 10)
+	while(i < 10)
 	{
 		char lowerchar;
 
@@ -18,7 +18,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(lowerchar);
 		}
-		_putchar('\n');
 		i = i + 1;
+		_putchar('\n');
 	}
 }
