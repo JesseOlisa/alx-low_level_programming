@@ -22,7 +22,7 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 					_putchar((tb / 100) + '0');
-					_putchar((tb / 10) % 10) + '0');
+					_putchar((tb / 10) % 10 + '0');
 					_putchar((tb % 10) + '0');
 				}
 				else if (tb > 9)
