@@ -20,18 +20,19 @@ void times_table(void)
 
 			if (tb > 9)
 			{
+				_putchar(' ');
 				_putchar((tb / 10) + '0'); /*This removes last*/
 				_putchar((tb % 10) + '0');
 			}
 			else
 			{
 				_putchar(' ');
+				_putchar(' ');
 				_putchar(tb + '0');
 			}
 			if (j != 9)
 			{
 				_putchar(',');
-				_putchar(' ');
 			}
 		}
 		_putchar('\n');
