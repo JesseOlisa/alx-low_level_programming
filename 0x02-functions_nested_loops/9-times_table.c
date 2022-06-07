@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints time of the day jack bauer wasted
+ * times_table - prints 9 times table
+ * 
  *
  * Return: Always 1 if program is successful
  */
@@ -14,6 +15,7 @@ void times_table(void)
 	{
 		int j;
 		int tb;
+
 		for (j = 0; j <= 9; j++)
 		{
 			tb = j * i;
@@ -21,8 +23,8 @@ void times_table(void)
 			if (tb > 9)
 			{
 				_putchar(' ');
-				_putchar((tb / 10) + '0'); /*This removes last*/
-				_putchar((tb % 10) + '0');
+				_putchar((tb / 10) + '0');/*This removes last d*/
+				_putchar((tb % 10) + '0');/*This prints last d*/
 			}
 			else if (j != 0)
 			{
@@ -30,7 +32,8 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(tb + '0');
 			}
-			else {
+			else
+			{
 				_putchar(tb + '0');
 			}
 			if (j != 9)
