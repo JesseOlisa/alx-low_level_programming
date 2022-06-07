@@ -31,6 +31,9 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
+				if (tb < 9){
+					_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
