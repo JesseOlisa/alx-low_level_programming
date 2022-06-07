@@ -12,8 +12,6 @@
  * return 0: if the code is a success
 */
 
-int _putchar(int c);
-
 int main(void)
 {
 	_putchar('_');
