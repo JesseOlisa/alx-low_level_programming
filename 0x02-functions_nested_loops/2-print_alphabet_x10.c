@@ -8,10 +8,9 @@
 
 void print_alphabet_x10(void)
 {
-	int i = 1;
 	char lowerchar;
 
-	while(i <= 10)
+	while(int i <= 10)
 	{
 		for(lowerchar = 'a'; lowerchar < 'z'; lowerchar++)
 		{
