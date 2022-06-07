@@ -20,7 +20,7 @@ int print_last_digit(int n)
 	}
 	else
 	{
-		lastDgt = n % 10;
+		r = n % 10;
 		return (r);
 		_putchar('r');
 	}
