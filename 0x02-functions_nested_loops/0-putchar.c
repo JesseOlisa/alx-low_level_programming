@@ -18,7 +18,7 @@ int main(void)
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
-	_purchar('a');
+	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
 
