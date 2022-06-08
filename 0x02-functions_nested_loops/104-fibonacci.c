@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	unsigned long double num, oldNum, upNums;
+	unsigned long int num, oldNum, upNums;
 	int i = 0;
 
 	num = 1;
