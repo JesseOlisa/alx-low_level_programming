@@ -20,7 +20,7 @@ int main(void)
 	while (num < 4000000)
 	{
 		if (num % 2 == 0)
-			evenSum = evenSum + num;
+			evenSum =+ num;
 
 		upNums = num;
 		num = num + oldNum;
