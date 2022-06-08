@@ -35,7 +35,7 @@ void print_times_table(int n)
 					_putchar((tb / 10) + '0');/*This removes last d*/
 					_putchar((tb % 10) + '0');/*This prints last d*/
 				}
-				else (j != 0)
+				else
 				{
 					_putchar(' ');
 					_putchar(' ');
