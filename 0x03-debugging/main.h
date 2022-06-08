@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+/**
+ * header file containing function prototypes
+ * 
+ */
 
 void positive_or_negative(int i);
 
