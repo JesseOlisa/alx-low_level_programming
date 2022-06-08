@@ -17,7 +17,7 @@ int main(void)
 
 	num = 1;
 	oldNum = 1;
-	while (i < 50)
+	while (i < 49)
 	{
 		printf("%ld, ", num);
 		upNums = num;
