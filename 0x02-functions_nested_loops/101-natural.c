@@ -17,9 +17,9 @@ int main(void)
 	multi5 = 0;
 	while (i < 1024)
 	{
-		if (i % 3 == 0)
+		if ((i % 3) == 0)
 			multi3 += i;
-		else if ( i % 5 == 0)
+		else if ((i % 5) == 0)
 			multi5 += i;
 		i++;
 	}
