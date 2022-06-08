@@ -27,6 +27,9 @@ int main(void)
 			oldNum = upNums;
 			i++;
 		}
+		else {
+			continue;
+		}
 	}
 	printf("%ld\n", num);
 	return (0);
