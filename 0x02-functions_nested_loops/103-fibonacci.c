@@ -12,24 +12,22 @@
 
 int main(void)
 {
-	long int num, oldNum, upNums;
+	long int num, oldNum, upNums, evenNum;
 	int i = 0;
 
 	num = 1;
 	oldNum = 1;
+	evenNum = 0;
 	while (num < 4000000)
 	{
 		if (num % 2 == 0)
-		{
+			evenNum = num;
+
 			printf("%ld, ", num);
 			upNums = num;
 			num = num + oldNum;
 			oldNum = upNums;
 			i++;
-		}
-		else {
-			continue;
-		}
 	}
 	printf("%ld\n", num);
 	return (0);
