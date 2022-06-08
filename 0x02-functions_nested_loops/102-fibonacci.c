@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	int num, oldNum, upNums, i
+	int num, oldNum, upNums, i;
 
 	i = 0;
 	num = 1;
