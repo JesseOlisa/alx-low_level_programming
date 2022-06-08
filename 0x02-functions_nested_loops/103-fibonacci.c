@@ -13,20 +13,19 @@
 int main(void)
 {
 	long int num, oldNum, upNums, evenSum;
-	int i = 0;
 
 	num = 1;
 	oldNum = 1;
 	evenSum = 0;
-	while (num <= 4000000)
+	while (num < 4000000)
 	{
 		if (num % 2 == 0)
-			evenSum =+ num;
+			evenSum = evenSum + num;
 
 		upNums = num;
 		num = num + oldNum;
 		oldNum = upNums;
-		i++;
+		num++;
 	}
 	printf("%ld\n", evenSum);
 	return (0);
