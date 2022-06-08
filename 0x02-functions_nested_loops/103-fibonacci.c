@@ -12,23 +12,22 @@
 
 int main(void)
 {
-	long int num, oldNum, upNums, evenNum;
+	long int num, oldNum, upNums, evenSum;
 	int i = 0;
 
 	num = 1;
 	oldNum = 1;
-	evenNum = 0;
+	evenSum = 0;
 	while (num < 4000000)
 	{
 		if (num % 2 == 0)
-			evenNum = num;
+			evenSum =+ num;
 
-			printf("%ld, ", num);
-			upNums = num;
-			num = num + oldNum;
-			oldNum = upNums;
-			i++;
+		upNums = num;
+		num = num + oldNum;
+		oldNum = upNums;
+		i++;
 	}
-	printf("%ld\n", num);
+	printf("%ld\n", evenSum);
 	return (0);
 }
