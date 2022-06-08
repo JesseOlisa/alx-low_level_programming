@@ -13,10 +13,12 @@
 int main(void)
 {
 	long int num, oldNum, upNums;
-	int i = 0;
 
 	num = 1;
 	oldNum = 1;
+	
+	int i = 0;
+
 	while (i < 50)
 	{
 		printf("%d, ", num);
