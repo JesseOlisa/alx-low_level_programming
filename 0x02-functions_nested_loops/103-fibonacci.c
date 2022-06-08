@@ -17,7 +17,7 @@ int main(void)
 	num = 1;
 	oldNum = 1;
 	evenSum = 0;
-	while (num < 4000000)
+	while (num <= 4000000)
 	{
 		if (num % 2 == 0)
 			evenSum =+ num;
