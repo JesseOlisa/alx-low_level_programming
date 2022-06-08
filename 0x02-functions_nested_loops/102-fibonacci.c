@@ -12,9 +12,9 @@
 
 int main(void)
 {
-	int num, oldNum, upNums, i;
+	long int num, oldNum, upNums;
+	int i = 0;
 
-	i = 0;
 	num = 1;
 	oldNum = 1;
 	while (i < 50)
@@ -25,6 +25,6 @@ int main(void)
 		oldNum = upNums;
 		i++;
 	}
-	printf("%d\n", num);
+	printf("%ld\n", num);
 	return (0);
 }
