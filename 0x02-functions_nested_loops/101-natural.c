@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.>
 /**
  * main - entry point if function
  *
