@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isupper - this function ckecks whether a letter is 
+ * _isupper - this function ckecks whether a letter is
  * in uppercase
- * @c - is input letter
+ * @c: is input letter
  * Return: 1 if it is uppercase
  *
  */
