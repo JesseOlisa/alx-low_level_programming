@@ -4,8 +4,8 @@
  * _isupper - this function ckecks whether a letter is 
  * in uppercase
  * @c - is input letter
- * Returns 0 if it is uppercase
- * 
+ * Return: 1 if it is uppercase
+ *
  */
 
 int _isupper(int c)
