@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_square- this function prints - diagonally
- *
+ * print_number- this function prints number
  * @n: parameter taken in
  * Return: 0 if it is digit
  *
