@@ -8,19 +8,16 @@
 
 int main(void)
 {
-	int i;
+	int i, primef;
 
 	long int num = 612852475143;
 	for (i = 2; i < num; i++)
 	{
-		if (num % i == 0)
+		if (num % i != 0)
 		{
-			continue;
-		}
-		else {
-			return (i);
+			primef = i;
 		}
 	}
-	printf("%d\n", i);
+	printf("%d\n", primef);
 	return (0);
 }
