@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (num % i == 0)
 		{
-			num /= i;
+			num = num / i;
 		}
 	}
 	printf("%ld\n", num);
