@@ -19,11 +19,12 @@ void print_triangle(int size)
 
 	for (i = 1; i <= size; i++)
 	{
+		/*This adds spaces to the front*/
 		for (j = i; j < size; j++)
 		{
 			_putchar(' ');
 		}
-
+		/*This adds # symbols*/
 		for (j = 1; j <= i; j++)
 		{
 			_putchar('#');
