@@ -3,6 +3,7 @@
 /**
  * print_square- this function prints - diagonally
  *
+ * @size: parameter taken in
  * Return: 0 if it is digit
  *
  */
@@ -20,7 +21,7 @@ void print_square(int size)
 		}
 		_putchar('\n');
 	}
-	if (n <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
