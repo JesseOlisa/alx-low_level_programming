@@ -4,7 +4,7 @@
  *_puts - prints out into the console
  *
  * @str: this is the str parameters
- * 
+ *
  * Return: the str;
  */
 
