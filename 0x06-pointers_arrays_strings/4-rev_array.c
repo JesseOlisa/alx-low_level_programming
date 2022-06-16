@@ -2,10 +2,10 @@
 
 /**
  * reverse_array - this functions reverses an array
- * 
+ *
  * @a: array parameters
  * @n: number of elements in the array
- * 
+ *
  */
 
 void reverse_array(int *a, int n)

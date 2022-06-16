@@ -2,10 +2,10 @@
 
 /**
  * _strcmp - compares two strings
- * 
+ *
  * @s1: first string character
  * @s2: second string characters
- * 
+ *
  * Return: a number
  */
 
