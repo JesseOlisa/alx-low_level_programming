@@ -8,7 +8,7 @@
  * @b: character to insert
  * @n: number of times to insert
  *
- * Return: this function returns the pointer s
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
